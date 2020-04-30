@@ -47,4 +47,4 @@ specs:
     container-volumes: [ "/tmp/#{proxy.userId}:/home/#{proxy.userId}" ]
 ```
 
-This repository largely based on the **openanalytics/shinyproxy-rstudio-ide-demo** repository.
+This repository is largely based on the **openanalytics/shinyproxy-rstudio-ide-demo** repository.
