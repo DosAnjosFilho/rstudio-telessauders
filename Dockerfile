@@ -38,4 +38,4 @@ RUN R -e "install.packages(c('pool', 'odbc'), repos='https://cloud.r-project.org
 RUN R -e "install.packages(c('plotly'), repos='https://cloud.r-project.org/')"
 
 # extras
-RUN R -e "install.packages(c('janitor', 'attempt', 'tinytex'), repos='https://cloud.r-project.org/')"
+RUN R -e "install.packages(c('janitor', 'attempt', 'tinytex', 'gtsummary'), repos='https://cloud.r-project.org/')"
