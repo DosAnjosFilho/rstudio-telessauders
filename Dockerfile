@@ -28,7 +28,8 @@ RUN install2.r --error \
     shiny \
     rmarkdown \
     shinydashboard \
-    DT
+    DT \
+    flexdashboard
 
 # advanced shiny
 RUN install2.r --error \
