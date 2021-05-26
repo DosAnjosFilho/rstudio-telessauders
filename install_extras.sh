@@ -23,7 +23,7 @@ install2.r --error --skipinstalled -r $CRAN -n $NCPUS \
     shiny \
     shinydashboard \
     DT \
-		plotly \
+    plotly \
     leaflet 
 
 ## database
@@ -34,6 +34,7 @@ install2.r --error --skipinstalled -r $CRAN -n $NCPUS \
 ## extras
 install2.r --error --skipinstalled -r $CRAN -n $NCPUS \
     janitor \
-    gtsummary
+    gtsummary \
+    attempt
 
 rm -rf /tmp/downloaded_packages
